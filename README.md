@@ -10,3 +10,5 @@ Runtime contract:
 - writes a small state file under `/data`
 
 The GitHub Actions workflow publishes a digest-pinned image to GHCR and uploads an `image-ref.txt` artifact containing the deployable `ghcr.io/...@sha256:...` reference.
+
+Current default image version: v3.
